@@ -1,0 +1,51 @@
+.hotel {
+  width: 320px;
+  height: 300px;
+  margin: 20px 20px;
+  border-radius: 10px;
+}
+
+.hotel-img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.hotel-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.learn {
+  margin-top: 6px;
+}
+
+.learn button {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 35%;
+  height: 25px;
+  border-radius: 8px;
+  padding: 4px 4px;
+  font-size: 12px;
+  background: transparent;
+  cursor: pointer;
+}
+.learn button:hover {
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 0.5s;
+}
+
+.review {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 6px;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+}

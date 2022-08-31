@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.buttons {
+  flex: 1;
+  text-align: right;
+}
+
+.navButton {
+  display: inline-block;
+  background: transparent;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin: 0px 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.navButton::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.navButton:hover::after {
+  width: 100%;
+}

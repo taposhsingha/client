@@ -1,0 +1,35 @@
+.rests {
+  display: flex;
+  flex-direction: column;
+}
+
+.restContainer {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.showmoree {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 100px;
+  height: 45px;
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  right: 100px;
+  border-radius: 12px;
+  padding: 4px 8px;
+  font-size: 13px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.showmoree:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 0.5s;
+}

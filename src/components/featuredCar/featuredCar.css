@@ -1,0 +1,98 @@
+.car {
+  width: 320px;
+  height: 300px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.car-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.car-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.car-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.car-detail h2 {
+  font-size: 20px;
+}
+
+.car-detail p {
+  font-size: 15px;
+}
+
+.car-place {
+  display: flex;
+  justify-content: space-between;
+}
+
+.car-place h2 {
+  font-size: 15px;
+}
+
+.car-place p {
+  font-size: 12px;
+}
+
+.car-company {
+  display: flex;
+  justify-content: space-between;
+}
+
+.car-company h2 {
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.car-company p {
+  font-size: 13px;
+  color: green;
+}
+
+.car-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.car-price p {
+  font-size: 16px;
+}
+
+.car-price h2 {
+  font-size: 14px;
+}
+
+.car-status {
+  color: green;
+  font-size: 15px;
+}
+
+.car-button {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 35%;
+  height: 25px;
+  border-radius: 8px;
+  padding: 4px 4px;
+  font-size: 12px;
+  background: transparent;
+  cursor: pointer;
+  margin-left: auto;
+  right: 0;
+}
+
+.car-button:hover {
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 0.5s;
+}
