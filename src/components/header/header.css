@@ -112,3 +112,8 @@
 .optionCounterButton:disabled {
   cursor: not-allowed;
 }
+
+.hotel-search-title h2 {
+  margin-top: 60px;
+  color: #fff;
+}

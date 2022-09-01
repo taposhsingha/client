@@ -9,6 +9,9 @@ import FeaturedCars from "../../components/featuredCars/FeaturedCars";
 import FeaturedRestaurants from "../../components/featuredRestaurants/FeaturedRestaurants";
 import FeaturedPlaces from "../../components/featuredPlaces/FeaturedPlaces";
 import FeaturedHotels from "../../components/featuredHotels/FeaturedHotels";
+import InsertInfo from "../../components/insertInfo/InsertInfo";
+import InsertBlog from "../../components/insertBlog/InsertBlog";
+import FeaturedBlogs from "../../components/featuredBlogs/FeaturedBlogs";
 
 const Home = () => {
   return (
@@ -79,10 +82,18 @@ const Home = () => {
           here
         </h2>
         <p>upon verification, they will be showcased in tourguide</p>
-        <div className="insert-place">asdasd</div>
-        <div className="insert-hotel">asdasd</div>
-        <div className="insert-carrentals">asdsad</div>
-        <div className="insert-rests">asdasd</div>
+        <InsertInfo type="a place" />
+        <InsertInfo type="a hotel" />
+        <InsertInfo type="a car rental service" />
+        <InsertInfo type="a restaurant" />
+        <InsertBlog />
+      </div>
+      <div className="blog-sec">
+        <h2 className="list-h2">
+          Here are some of the memorable travelling experience <br />
+          by some of our users
+        </h2>
+        <FeaturedBlogs />
       </div>
     </div>
   );

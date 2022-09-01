@@ -3,7 +3,6 @@
 }
 .middle-sec {
   width: 80%;
-
   margin: auto;
   text-align: center;
   padding-top: 50px;
@@ -95,6 +94,10 @@
   opacity: 1;
 }
 
+.featured-lists {
+  margin: 80px auto;
+}
+
 .list-h1 {
   text-align: center;
 }
@@ -120,5 +123,6 @@
 }
 
 .insert-sec p {
+  margin-top: 15px;
   text-align: center;
 }

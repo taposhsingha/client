@@ -1,0 +1,33 @@
+.blogs {
+  width: 90%;
+  margin-left: 25px;
+}
+
+.blogs-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.showmoref {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 100px;
+  height: 45px;
+  position: relative;
+  margin-top: 450px;
+  margin-left: auto;
+  right: 20px;
+  border-radius: 12px;
+  padding: 4px 8px;
+  font-size: 13px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.showmoref:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 0.5s;
+}

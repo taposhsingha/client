@@ -1,0 +1,65 @@
+.blog-wrapper {
+  margin-top: 15px;
+  width: 350px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.blog-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.blog-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-title h2 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.blog-title p {
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.blog-place {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-place h2 {
+  font-size: 12px;
+}
+
+.blog-place p {
+  margin-left: 8px;
+  font-size: 15px;
+}
+
+.blog-text p {
+  font-size: 15px;
+  flex-wrap: wrap;
+}
+
+.blog-review {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-review h2 {
+  margin-top: 8px;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.blog-review p {
+  color: green;
+}
