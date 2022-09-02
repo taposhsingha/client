@@ -21,6 +21,10 @@ const CreateHotelPage = () => {
             <h2>Hotel Name</h2>
             <input type="text" />
           </div>
+          <div className="hotel-from-name">
+            <h2>Hotel location</h2>
+            <input type="text" />
+          </div>
           <div className="hotel-form-choice">
             <div className="hotel-form-quality">
               <h2>Hotel quality</h2>
@@ -48,6 +52,50 @@ const CreateHotelPage = () => {
               </select>
             </div>
           </div>
+          <div className="hotel-form-amenities">
+            <h2>Hotel Amenities</h2>
+            <div className="hotel-form-amenities-options">
+              <label className="container">
+                <h2>Free Wifi</h2>
+                <input type="checkbox" />
+                <span className="checkmark"></span>
+              </label>
+              <label className="container">
+                <h2>Business Center</h2>
+                <input type="checkbox" />
+                <span className="checkmark"></span>
+              </label>
+              <label className="container">
+                <h2>Free Parking</h2>
+                <input type="checkbox" />
+                <span className="checkmark"></span>
+              </label>
+              <label className="container">
+                <h2>Conference Facilities</h2>
+                <input type="checkbox" />
+                <span className="checkmark"></span>
+              </label>
+              <label className="container">
+                <h2>Restaurant</h2>
+                <input type="checkbox" />
+                <span className="checkmark"></span>
+              </label>
+              <label className="container">
+                <h2>Free Cancellation</h2>
+                <input type="checkbox" />
+                <span className="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div className="hotel-form-summary">
+            <h2>Hotel details Summary</h2>
+            <textarea />
+          </div>
+          <div className="hotel-form-amenities">
+            <h2>Hotel pictures</h2>
+            <input type="file" />
+          </div>
+          <button>Submit Form</button>
         </div>
       </div>
     </div>

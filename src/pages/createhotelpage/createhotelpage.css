@@ -21,7 +21,7 @@
 }
 
 .create-hotel-wrapper {
-  width: 90%;
+  width: 75%;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 15px;
@@ -55,4 +55,39 @@
 
 .hotel-form-style-choice {
   padding: 8px 8px;
+}
+
+.hotel-form-amenities {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.hotel-form-summary {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.hotel-form-summary textarea {
+  width: 50%;
+  height: 220px;
+  padding: 8px 8px;
+  font-size: 16px;
+}
+
+.create-hotel-wrapper button {
+  width: 30%;
+  margin: auto;
+  margin-top: 45px;
+  height: 30px;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid black;
+  background: #5783db;
+  cursor: pointer;
+}
+
+.create-hotel-wrapper button:hover {
+  border: 1px solid #55c2da;
+  background: #55c2da;
+  transition: 0.5s;
 }
