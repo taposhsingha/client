@@ -1,0 +1,58 @@
+.create-hotel-section {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  width: 100%;
+  position: relative;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(img.jpg);
+}
+
+.create-hotel-title {
+  margin-top: 50px;
+  color: #fff;
+  margin-left: 80px;
+}
+
+.create-hotel-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgba(196, 165, 199, 0.4);
+}
+
+.create-hotel-wrapper {
+  width: 90%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.hotel-from-name input {
+  width: 50%;
+  padding: 8px 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.hotel-form-choice {
+  margin-left: 15px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.hotel-form-quality-choice {
+  width: 120px;
+  padding: 8px 8px;
+}
+
+.hotel-form-style {
+  margin-left: 120px;
+}
+
+.hotel-form-style-choice {
+  padding: 8px 8px;
+}
