@@ -3,6 +3,8 @@ import Navbar from "../../components/navbar/Navbar";
 import PlaceCityCard from "../../components/placecitycard/PlaceCityCard";
 import SearchPlaceIntro from "../../components/searchplaceintro/SearchPlaceIntro";
 import FeaturedHotel from "../../components/featuredHotel/FeaturedHotel";
+import FeaturedRestaurant from "../../components/featuredRestaurant/FeaturedRestaurant";
+import FeaturedCar from "../../components/featuredCar/FeaturedCar";
 import "./placeslist.css";
 
 const PlacesList = () => {
@@ -61,6 +63,18 @@ const PlacesList = () => {
                 review="3-stars"
                 quality="4-star"
               />
+            </div>
+            <h2>Some good restaurant to dine in Japan:</h2>
+            <div className="search-city-card-list">
+              <FeaturedRestaurant />
+              <FeaturedRestaurant />
+              <FeaturedRestaurant />
+            </div>
+            <h2>Some car rentals service in Japan:</h2>
+            <div className="search-city-card-list">
+              <FeaturedCar />
+              <FeaturedCar />
+              <FeaturedCar />
             </div>
           </div>
         </div>
