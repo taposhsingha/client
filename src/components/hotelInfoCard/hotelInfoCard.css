@@ -1,0 +1,111 @@
+.hotel-info-card {
+  padding: 10px;
+}
+
+.hotel-card-wrapper {
+  width: 700px;
+  display: flex;
+  border-radius: 6px;
+  background: rgb(236, 236, 236);
+  cursor: pointer;
+}
+
+.hotel-card-img {
+  height: 100%;
+  width: 280px;
+  border-radius: 6px;
+}
+
+.hotel-card-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 15px;
+  margin-top: 0;
+}
+
+.hotel-card-name h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hotel-rating-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel-rating-card h2 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.hotel-rating-card p {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.hotel-card-reception {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel-card-reception h2 {
+  font-size: 14px;
+  font-weight: normal;
+  color: green;
+}
+
+.hotel-card-reception p {
+  font-size: 14px;
+  color: orange;
+}
+
+.hotel-card-price {
+  margin-left: auto;
+  right: 0;
+}
+
+.hotel-card-price h2 {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.view-hotel-deal {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 35%;
+  height: 35px;
+  border-radius: 8px;
+  padding: 4px 4px;
+  font-size: 12px;
+  background: rgb(97, 133, 25);
+  cursor: pointer;
+  margin-left: auto;
+  right: 0;
+  margin-top: auto;
+  bottom: 0;
+}
+
+.view-hotel-deal:hover {
+  border: 1px solid green;
+  background: green;
+  transition: 0.5s;
+}
+
+.hotel-card-features {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.hotel-card-features h2 {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.hotel-card-features p {
+  font-weight: normal;
+  font-size: 12px;
+}

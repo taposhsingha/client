@@ -1,33 +1,44 @@
-.places {
+.place-city-card {
+  width: 300px;
+  height: 300px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.place-card-img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.place-city-card-text h1 {
+  font-size: 15px;
+}
+.place-city-card {
   display: flex;
   flex-direction: column;
 }
-.placesContainer {
+
+.learng {
   display: flex;
   justify-content: space-between;
-  width: 90%;
-  margin-left: 30px;
 }
 
-.showmorea {
+.learng button {
   display: inline-block;
   text-decoration: none;
   color: #fff;
-  width: 100px;
-  height: 45px;
-  position: relative;
   border: 1px solid #fff;
-  margin-top: 0px;
-  margin-left: auto;
-  right: 100px;
+  width: 35%;
+  height: 30px;
   border-radius: 12px;
-  padding: 8px 8px;
+  padding: 4px 8px;
   font-size: 13px;
   background: #5783db;
   cursor: pointer;
 }
 
-.showmorea:hover {
+.learng button:hover {
   border: 1px solid #55c2da;
   background: #55c2da;
   transition: 0.5s;

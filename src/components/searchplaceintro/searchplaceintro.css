@@ -1,0 +1,30 @@
+.search-place-intro {
+}
+
+.search-place-intro-wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.search-place-intro-img {
+  width: 100%;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.search-place-intro-text {
+  display: flex;
+}
+
+.search-place-intro-text p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.search-place-intro-text h2 {
+  margin-top: -5px;
+  margin-left: auto;
+  right: 20px;
+  font-size: 14px;
+  font-weight: normal;
+}

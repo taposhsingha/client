@@ -60,6 +60,13 @@ const Header = ({ type }) => {
             />
           </div>
           <div className="headerSearchItem">
+            <input
+              className="headerSearchInput"
+              type="text"
+              placeholder="type of search"
+            />
+          </div>
+          <div className="headerSearchItem">
             <FontAwesomeIcon icon={faCalendarDays} className="headerIcon" />
             <span
               onClick={() => setOpenDate(!openDate)}

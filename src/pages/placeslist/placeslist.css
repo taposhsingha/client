@@ -1,0 +1,75 @@
+.middle-place-section {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  width: 100%;
+  position: relative;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(img.jpg);
+}
+
+.place-insert-info {
+  color: #fff;
+  margin-top: 60px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.place-insert-info button {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 13%;
+  height: 28px;
+  margin-top: 15px;
+  border-radius: 8px;
+  padding: 4px 4px;
+  font-size: 12px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.place-insert-info button:hover {
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 0.5s;
+}
+
+.place-search-title h2 {
+  margin-top: 18px;
+  text-align: center;
+  color: #fff;
+}
+
+.place-list-section {
+  width: 100%;
+  height: 800px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.place-list-wrapper {
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.place-list-essential {
+  margin: auto;
+  width: 90%;
+  height: 200px;
+}
+
+.place-list-essential h2 {
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.search-city-card-list {
+  display: flex;
+  justify-content: space-between;
+}

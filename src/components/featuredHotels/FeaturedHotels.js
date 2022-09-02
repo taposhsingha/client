@@ -13,6 +13,7 @@ const FeaturedHotels = () => {
           price="Starting from $2000"
           reviewnums="1100"
           review="5-star"
+          quality="4-star"
         />
         <FeaturedHotel
           name="sheraton hotel"
@@ -21,6 +22,7 @@ const FeaturedHotels = () => {
           price="Starting from $2000"
           reviewnums="1100"
           review="5-star"
+          quality="5-star"
         />
         <FeaturedHotel
           name="sheraton hotel"
@@ -29,6 +31,7 @@ const FeaturedHotels = () => {
           price="Starting from $2000"
           reviewnums="1100"
           review="5-star"
+          quality="5-star"
         />
       </div>
       <div className="learnmore">

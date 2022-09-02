@@ -25,12 +25,12 @@
   border-radius: 12px;
   padding: 4px 8px;
   font-size: 13px;
-  background: transparent;
+  background: #5783db;
   cursor: pointer;
 }
 
 .showmorec:hover {
-  border: 1px solid #f44336;
-  background: #f44336;
+  border: 1px solid #55c2da;
+  background: #55c2da;
   transition: 0.5s;
 }

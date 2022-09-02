@@ -8,6 +8,7 @@ const FeaturedHotel = (props) => {
         <img src={img} alt="img" className="hotel-img" />
         <div className="hotel-text">
           <h1>{props.name}</h1>
+          <h1>{props.quality}</h1>
           <div className="learn">
             <p>{props.city}</p>
             <button>Learn more</button>

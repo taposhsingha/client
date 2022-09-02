@@ -1,11 +1,20 @@
 import React from "react";
 import "./hotelslist.css";
 import Navbar from "../../components/navbar/Navbar";
+import HotelInfoCard from "../../components/hotelInfoCard/HotelInfoCard";
 const Hotelslist = () => {
   return (
     <div className="hotel-header">
-      <div className="middle-sec">
+      <div className="middle-hotel-sec">
         <Navbar />
+        <div className="hotel-insert-info">
+          <h2>
+            If you want to insert information about a hotel,
+            <br />
+            you can click here
+          </h2>
+          <button>Insert a hotel</button>
+        </div>
         <div className="hotel-search-title">
           <h2>Here are your hotel search results:</h2>
         </div>
@@ -157,7 +166,13 @@ const Hotelslist = () => {
               </div>
             </div>
           </div>
-          <div className="search-list"></div>
+          <div className="search-list">
+            <HotelInfoCard />
+            <HotelInfoCard />
+            <HotelInfoCard />
+            <HotelInfoCard />
+            <HotelInfoCard />
+          </div>
         </div>
       </div>
     </div>
