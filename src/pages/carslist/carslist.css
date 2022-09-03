@@ -1,0 +1,86 @@
+.car-list-content {
+  width: 100%;
+  height: 800px;
+  background: #005272;
+  display: flex;
+  justify-content: center;
+}
+
+.car-list-content-wrapper {
+  width: 90%;
+  background: rgb(211, 211, 211);
+  margin-top: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.car-list-search-box {
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.car-list-search-list {
+  width: 50%;
+  height: 600px;
+  margin-top: 10px;
+  right: 5px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.car-list-search-box-wrapper {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.car-search-class h2 {
+  font-size: 18px;
+}
+
+.car-search-class input {
+  width: 60%;
+  margin-top: 10px;
+  height: 20px;
+}
+
+.car-search-car-specs h2 {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.container h2 {
+  font-size: 14px;
+}
+
+.car-search-car-types h2 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.container h2 {
+  font-size: 14px;
+}
+
+.car-search-box-price h2 {
+  font-size: 18px;
+}
+
+.car-search-box-price input {
+  width: 60%;
+  margin-top: 10px;
+  height: 20px;
+}
+
+.car-search-box-car-category h2 {
+  font-size: 18px;
+}
+
+.container h2 {
+  font-size: 14px;
+}
