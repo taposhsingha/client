@@ -1,0 +1,92 @@
+.register {
+  height: 100vh;
+  background: rgba(0, 87, 114, 0.7);
+  display: flex;
+  justify-content: center;
+}
+
+.register-wrapper {
+  width: 80%;
+  height: 80%;
+  margin-top: 60px;
+  background: #fff;
+  display: flex;
+  border-radius: 10px;
+}
+
+.register-title {
+  margin-bottom: 20px;
+}
+
+.register-img {
+  width: 50%;
+  border-radius: 10px 0px 0px 10px;
+  height: 100%;
+}
+
+.register-text {
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.register-name input {
+  width: 320px;
+  padding: 8px 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.register-email input {
+  width: 320px;
+  padding: 8px 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.register-password input {
+  width: 320px;
+  padding: 8px 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.register-button-wrapper {
+  display: flex;
+}
+
+.register-button {
+  width: 30%;
+  margin: auto;
+  margin-top: 45px;
+  height: 30px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background: #5783db;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  border: 1px solid #55c2da;
+  background: #55c2da;
+  transition: 0.5s;
+}
+
+.go-to-login-button {
+  width: 180px;
+  margin: auto;
+  margin-left: 80px;
+  margin-top: 45px;
+  height: 30px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background: #5783db;
+  cursor: pointer;
+}
+
+.go-to-login-button:hover {
+  border: 1px solid #55c2da;
+  background: #55c2da;
+  transition: 0.5s;
+}

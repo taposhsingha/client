@@ -1,0 +1,85 @@
+.login {
+  height: 100vh;
+  background: rgba(0, 87, 114, 0.7);
+  display: flex;
+  justify-content: center;
+}
+
+.login-wrapper {
+  width: 80%;
+  height: 80%;
+  margin-top: 60px;
+  background: #fff;
+  display: flex;
+  border-radius: 10px;
+}
+
+.login-title {
+  margin-bottom: 20px;
+}
+
+.login-img {
+  width: 50%;
+  border-radius: 10px 0px 0px 10px;
+  height: 100%;
+}
+
+.login-text {
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.login-email input {
+  width: 320px;
+  padding: 8px 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.login-password input {
+  width: 320px;
+  padding: 8px 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.login-button-wrapper {
+  display: flex;
+}
+
+.login-button {
+  width: 30%;
+  margin: auto;
+  margin-top: 45px;
+  height: 30px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background: #5783db;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  border: 1px solid #55c2da;
+  background: #55c2da;
+  transition: 0.5s;
+}
+
+.go-to-register-button {
+  width: 180px;
+  margin: auto;
+  margin-left: 80px;
+  margin-top: 45px;
+  height: 30px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background: #5783db;
+  cursor: pointer;
+}
+
+.go-to-register-button:hover {
+  border: 1px solid #55c2da;
+  background: #55c2da;
+  transition: 0.5s;
+}

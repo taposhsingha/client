@@ -2,6 +2,7 @@ import React from "react";
 import "./hotelslist.css";
 import Navbar from "../../components/navbar/Navbar";
 import HotelInfoCard from "../../components/hotelInfoCard/HotelInfoCard";
+
 const Hotelslist = () => {
   return (
     <div className="hotel-header">

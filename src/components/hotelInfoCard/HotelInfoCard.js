@@ -27,6 +27,7 @@ const HotelInfoCard = () => {
             <p>Restaurant</p>
             <p>Special Offer</p>
           </div>
+          <h2 className="hotel-card-room-available">Room available</h2>
           <button className="view-hotel-deal">View Deal</button>
         </div>
       </div>

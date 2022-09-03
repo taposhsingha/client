@@ -25,6 +25,10 @@ const CreateHotelPage = () => {
             <h2>Hotel location</h2>
             <input type="text" />
           </div>
+          <div className="hotel-from-name">
+            <h2>Hotel phone No.</h2>
+            <input type="text" />
+          </div>
           <div className="hotel-form-choice">
             <div className="hotel-form-quality">
               <h2>Hotel quality</h2>
@@ -86,6 +90,50 @@ const CreateHotelPage = () => {
                 <span className="checkmark"></span>
               </label>
             </div>
+          </div>
+          <div className="hotel-form-amenities">
+            <h2>Hotel Room features</h2>
+            <div className="hotel-form-amenities-options">
+              <label className="container">
+                <h2>Blackout curtains</h2>
+                <input type="checkbox" />
+                <span className="checkmark"></span>
+              </label>
+              <label className="container">
+                <h2>Air conditioning </h2>
+                <input type="checkbox" />
+                <span className="checkmark"></span>
+              </label>
+              <label className="container">
+                <h2>Desk</h2>
+                <input type="checkbox" />
+                <span className="checkmark"></span>
+              </label>
+              <label className="container">
+                <h2>Interconnected rooms available</h2>
+                <input type="checkbox" />
+                <span className="checkmark"></span>
+              </label>
+              <label className="container">
+                <h2>Coffee / tea maker</h2>
+                <input type="checkbox" />
+                <span className="checkmark"></span>
+              </label>
+              <label className="container">
+                <h2>Extra long beds</h2>
+                <input type="checkbox" />
+                <span className="checkmark"></span>
+              </label>
+              <label className="container">
+                <h2>Bath / shower</h2>
+                <input type="checkbox" />
+                <span className="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div className="hotel-from-name">
+            <h2>Hotel Booking Price</h2>
+            <input type="text" />
           </div>
           <div className="hotel-form-summary">
             <h2>Hotel details Summary</h2>
