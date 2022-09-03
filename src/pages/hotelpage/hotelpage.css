@@ -205,3 +205,40 @@
 .single-hotel-content-read-review-intro h2 {
   font-size: 18px;
 }
+
+.single-hotel-content-write-review h2 {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.single-hotel-content-write-review input {
+  margin-top: 12px;
+}
+
+.single-hotel-content-write-review textarea {
+  width: 60%;
+  margin-top: 15px;
+  height: 120px;
+  display: block;
+}
+
+.single-hotel-content-write-review button {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 15%;
+  height: 25px;
+  border-radius: 8px;
+  padding: 4px 4px;
+  font-size: 12px;
+  background: #5783db;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.single-hotel-content-write-review button:hover {
+  border: 1px solid #55c2da;
+  background: #55c2da;
+  transition: 0.5s;
+}

@@ -3,6 +3,7 @@ import "./hotelpage.css";
 import Navbar from "../../components/navbar/Navbar";
 import Hotel from "./hotel.jpg";
 import FeaturedHotel from "../../components/featuredHotel/FeaturedHotel";
+import SingleHotelReview from "../../components/singlereviewcard/SingleReviewCard";
 
 const HotelPage = () => {
   return (
@@ -124,6 +125,17 @@ const HotelPage = () => {
             </div>
             <div className="single-hotel-content-read-review-intro">
               <h2>Here are some reviews by our users:</h2>
+            </div>
+            <div className="single-hotel-content-read-review-class">
+              <SingleHotelReview />
+              <SingleHotelReview />
+              <SingleHotelReview />
+            </div>
+            <div className="single-hotel-content-write-review">
+              <h2>Write a review :</h2>
+              <input type="text" placeholder="put review score here" />
+              <textarea type="text" placeholder="wite review here" />
+              <button>Submit Review</button>
             </div>
           </div>
         </div>

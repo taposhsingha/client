@@ -1,0 +1,31 @@
+.single-review-card {
+  margin-top: 15px;
+  width: 70%;
+  background: rgba(211, 211, 211, 0.5);
+  border-radius: 6px;
+}
+.single-review-card-wrapper {
+  padding: 5px;
+}
+
+.single-review-card-intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-review-card-intro h2 {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.single-review-card-intro p {
+  font-size: 14px;
+}
+
+.single-review-card-content h2 {
+  font-size: 16px;
+}
+
+.single-review-card-content p {
+  font-size: 14px;
+}
