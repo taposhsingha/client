@@ -12,6 +12,7 @@ import { DateRange } from "react-date-range";
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
 import { format } from "date-fns";
+import CarInfoCard from "../../components/carinfocard/CarInfoCard";
 const CarsList = () => {
   const [destination, setDestination] = useState("");
   const [openDate, setOpenDate] = useState(false);
@@ -269,7 +270,12 @@ const CarsList = () => {
               </div>
             </div>
           </div>
-          <div className="car-list-search-list"></div>
+          <div className="car-list-search-list">
+            <CarInfoCard />
+            <CarInfoCard />
+            <CarInfoCard />
+            <CarInfoCard />
+          </div>
         </div>
       </div>
     </div>

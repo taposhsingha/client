@@ -1,0 +1,71 @@
+.car-info-card {
+  padding: 10px;
+}
+
+.car-info-card-wrapper {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  border-radius: 6px;
+  background: rgb(236, 236, 236);
+  cursor: pointer;
+}
+
+.car-card-img {
+  height: 100%;
+  width: 280px;
+  border-radius: 6px;
+}
+
+.car-card-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.car-card-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.car-card-name h2 {
+  font-size: 18px;
+}
+
+.car-card-review h2 {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.car-card-features h2 {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.car-card-features p {
+  font-size: 15px;
+}
+
+.view-car-deal {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 35%;
+  height: 35px;
+  border-radius: 8px;
+  padding: 4px 4px;
+  font-size: 12px;
+  background: rgb(97, 133, 25);
+  cursor: pointer;
+  margin-left: auto;
+  right: 0;
+  margin-top: auto;
+  bottom: 0;
+}
+
+.view-car-deal:hover {
+  border: 1px solid green;
+  background: green;
+  transition: 0.5s;
+}
